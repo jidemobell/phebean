@@ -1,4 +1,5 @@
 import './Gallery.css';
+import muffinsImage from '../assets/cakes/heather-barnes.jpg';
 
 export default function Gallery() {
   const bakingItems = [
@@ -29,7 +30,7 @@ export default function Gallery() {
     {
       id: 5,
       title: "Muffins",
-      image: "https://images.unsplash.com/photo-1507061959300-b19a1ae2d64e?w=400&h=400&fit=crop&crop=center",
+      image: muffinsImage,
       description: "Fluffy homemade muffins"
     },
     {
